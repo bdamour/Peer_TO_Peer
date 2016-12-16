@@ -22,7 +22,7 @@ if step == 1:
 	sock_alice.connect((IP_Alice, PORT_Alice)) 
 
 
-	filename,chunks_count = get_descritpion()
+	filename,chunks_count = get_description()
 	chunks_list = get_chunks_list()
 	chunks_peers = get_chunks_peers()
 

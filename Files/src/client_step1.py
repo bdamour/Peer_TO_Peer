@@ -16,7 +16,7 @@ path_chunks_charlie = os.path.join(os.path.dirname(os.path.realpath(__file__)), 
 
 
 #Fonction pour Charlie
-filename,chunks_count = get_descritpion()
+filename,chunks_count = get_description()
 chunks_list = get_chunks_list()
 chunks_peers = get_chunks_peers()
 
