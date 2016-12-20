@@ -17,7 +17,7 @@ def handle_charlie(charlie_socket,charlie_addr):
 				print("ANSWER: INVALID_MESSAGE_FORMAT")
 			elif message_format(Mess) != 2:  
 				send_Message(ERROR(1),charlie_socket) #INVALID_REQUEST, 1  
-				print("ANSWER: CHUNK_NOT_FOUND")
+				print("ANSWER: INVALID_REQUEST")
 			elif  message_format(Mess) == 2: #message_format(Message) == 2 => GET_FILE_INFO()
 				print("FILE_INFO_OK!")
 				send_Message(FILE_INFO(),charlie_socket)

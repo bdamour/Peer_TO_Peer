@@ -153,3 +153,6 @@ if ok:
 else:
 	print("ERROR: IMPOSSIBLE TO READ MESSAGE BECAUSE IS NOT FILE_INFO ")
 
+sock_bob.close()
+sock_alice.close()
+sock_tracker.close()
